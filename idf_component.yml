@@ -1,7 +1,0 @@
-name: HAP-ESPHome
-version: "0.1.0"
-dependencies:
-  idf:
-    version: ">=5.2.1"
-  espressif/esp-homekit-sdk: "*"
-override_path: "."  # ensures the local code is used instead of a registry package

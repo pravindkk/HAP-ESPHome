@@ -54,7 +54,7 @@ async def to_code(config):
         name="idf-extra-components",
         repo="https://github.com/espressif/idf-extra-components.git",
         ref="master",
-        components=["libsodium", "jsmn", "json_parser", "json_generator"],
+        components=["libsodium", "json_parser", "json_generator"],
         submodules=["libsodium/libsodium"]
     )
     add_idf_component(
